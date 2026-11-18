@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "AmazonPublisherServicesSDK",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(name: "AmazonPublisherServicesSDK", targets: ["APSSDKTarget"])
     ],
@@ -23,8 +23,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
-            url: "https://d14jk8f50gmy3e.cloudfront.net/iOS_APS_SDK_SPM/APS_iOS_SDK-5.6.6.zip",
-            checksum: "019aa458f79c57bfd44ee41f8b3292e93bad90f05d30f5307f4c20d78e229a31"
+            url: "https://d14jk8f50gmy3e.cloudfront.net/iOS_APS_SDK_SPM/APS_iOS_SDK-5.7.0.zip",
+            checksum: "4e7d26ed0e5942d0879fb0604eba850b9da2394844a4ed307b411acaec200c21"
         )
     ]
 )

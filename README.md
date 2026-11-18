@@ -4,7 +4,7 @@ Swift Package Manager distribution for the Amazon Publisher Services (APS) iOS S
 
 ## Requirements
 
-- iOS 12.0+
+- iOS 15.0+
 - Xcode 15.0+
 - Swift 5.7+
 
@@ -14,13 +14,13 @@ Swift Package Manager distribution for the Amazon Publisher Services (APS) iOS S
 
 1. File → Add Package Dependencies…
 2. Enter `https://github.com/amzn/swift-package-manager-amazon-aps.git`
-3. Select "Up to Next Major Version" from `5.6.6`.
+3. Select "Up to Next Major Version" from `5.7.0`.
 4. Add the `AmazonPublisherServicesSDK` product to your app target.
 
 **Package.swift**
 
 ```swift
-.package(url: "https://github.com/amzn/swift-package-manager-amazon-aps.git", from: "5.6.6")
+.package(url: "https://github.com/amzn/swift-package-manager-amazon-aps.git", from: "5.7.0")
 ```
 
 Then add the product to your target:
@@ -55,6 +55,7 @@ Adapters live in separate repositories:
 - [`swift-package-manager-amazon-aps-inmobi`](https://github.com/amzn/swift-package-manager-amazon-aps-inmobi) — InMobi
 - [`swift-package-manager-amazon-aps-mobilefuse`](https://github.com/amzn/swift-package-manager-amazon-aps-mobilefuse) — MobileFuse
 - [`swift-package-manager-amazon-aps-verve`](https://github.com/amzn/swift-package-manager-amazon-aps-verve) — Verve (HyBid)
+- [`swift-package-manager-amazon-aps-pubmatic`](https://github.com/amzn/swift-package-manager-amazon-aps-pubmatic) — PubMatic (OpenWrap SDK)
 
 Adding an adapter package transitively pulls in this SDK; you do not need to add both.
 
